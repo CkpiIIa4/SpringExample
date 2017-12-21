@@ -1,16 +1,17 @@
 package com.tutorialspoint;
 
-import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainApp {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
-        JavaCollection jc=(JavaCollection)context.getBean("javaCollection");
+        ConfigurableApplicationContext context =
+                new ClassPathXmlApplicationContext("Beans.xml");
 
-        jc.getAddressList();
-        jc.getAddressSet();
-        jc.getAddressMap();
-        jc.getAddressProp();
+        CustomEventPublisher cvp =
+                (CustomEventPublisher) context.getBean("customEventPublisher");
+
+        cvp.publish();
+        cvp.publish();
     }
 }
