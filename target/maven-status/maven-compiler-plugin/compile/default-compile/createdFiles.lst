@@ -1,2 +1,8 @@
-com\tutorialspoint\JavaCollection.class
-com\tutorialspoint\MainApp.class
+jbr\springmvc\controller\LoginController.class
+jbr\springmvc\dao\UserDaoImpl$UserMapper.class
+jbr\springmvc\dao\UserDaoImpl.class
+jbr\springmvc\model\Login.class
+jbr\springmvc\dao\UserDao.class
+jbr\springmvc\service\UserService.class
+jbr\springmvc\controller\RegistrationController.class
+jbr\springmvc\model\User.class

@@ -1,2 +1,7 @@
-E:\JavaProjects\SpringExample\src\main\java\com\tutorialspoint\JavaCollection.java
-E:\JavaProjects\SpringExample\src\main\java\com\tutorialspoint\MainApp.java
+E:\JavaProjects\SpringExample\src\main\java\jbr\springmvc\controller\LoginController.java
+E:\JavaProjects\SpringExample\src\main\java\jbr\springmvc\service\UserService.java
+E:\JavaProjects\SpringExample\src\main\java\jbr\springmvc\model\User.java
+E:\JavaProjects\SpringExample\src\main\java\jbr\springmvc\dao\UserDao.java
+E:\JavaProjects\SpringExample\src\main\java\jbr\springmvc\controller\RegistrationController.java
+E:\JavaProjects\SpringExample\src\main\java\jbr\springmvc\model\Login.java
+E:\JavaProjects\SpringExample\src\main\java\jbr\springmvc\dao\UserDaoImpl.java
