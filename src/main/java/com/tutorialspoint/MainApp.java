@@ -8,11 +8,10 @@ public class MainApp {
         ConfigurableApplicationContext context =
                 new ClassPathXmlApplicationContext("Beans.xml");
 
-        context.start();
+        CustomEventPublisher cvp =
+                (CustomEventPublisher) context.getBean("customEventPublisher");
 
-        HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
-        obj.getMessage();
-
-        context.stop();
+        cvp.publish();
+        cvp.publish();
     }
 }
